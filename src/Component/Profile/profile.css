@@ -1,0 +1,22 @@
+.backs {
+    background-color: #03414d;
+}
+
+
+.prf {
+    width: 500px;
+    height: 500px;
+    rotate: -4deg;
+}
+
+.prf:hover {
+    rotate: 0deg;
+    transition: rotate 1s ease-in-out;
+}
+
+@media only screen and (max-width: 1366px) {
+    .prf {
+        width: 350px;
+        height: 350px;
+    }
+  }
